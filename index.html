@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game Basic</title>
+
+    <!--Link to Reset CSS-->
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+    <!--Link to CSS Stylesheet-->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="header">
+    <h1>Atlanta United FC Trivia</h1>
+    <div id="timer-display">01:30</div>
+</div>
+<button class="start">Start</button>
+<div class="question-block">
+
+  <div id="quiz">
+            <div id="question">
+                <form>
+                    <label>When did Arthur Blank, owner of Atlanta United FC, announce the founding of Atlanta United?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="2016"> June 2013
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="2014"> April 2014
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="2015"> September 2015 
+                    <br>
+                    <input type="radio" id="radio" name="answer1" value="2004"> February 2004
+                    <br>
+                    <br>
+                    <label>Who did Atlanta United play in their first regular season game?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="NYRB"> New York Red Bulls
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="NYCFC"> New York City FC
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="SJEQ"> San Jose Earthquakes
+                    <br>
+                    <input type="radio" id="radio" name="answer2" value="SKC"> Sporting Kansas City
+                    <br>
+                    <br>
+                    <label>Which stadium hosted Atlanta United until the construction of the Mercedes-Benz Stadium was complete?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="TTS"> Ted Turner Stadium
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="KSU"> Fifth-Third Stadium
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="BBD"> Bobby Dodd Stadium
+                    <br>
+                    <input type="radio" id="radio" name="answer3" value="UGA"> Sanford Stadium
+                    <br>
+                    <br>
+                    <label>Who won the Golden Boot Award in 2018?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="JM"> Josef Martinez
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="TV"> Hector Tito Villalba
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="MA"> Miguel Almiron
+                    <br>
+                    <input type="radio" id="radio" name="answer4" value="BG"> Brad Guzan
+                    <br>
+                    <br>
+                    <label>Who did Atlanta United defeat to win the 2018 MLS Cup?</label>
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="VWC"> Vancouver Whitecaps
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="PTFC"> Portland Timbers
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="FCD"> FC Dallas
+                    <br>
+                    <input type="radio" id="radio" name="answer5" value="CCFC"> Columbus Crew 
+                    <br>
+                </form>
+                <br>
+            </div>
+        </div>  
+
+
+</div>
+<div class="results">
+    <h2 id="correct"> Correct: </h2>
+    <h2 id="incorrect"> Incorrect: </h2>
+    <h2 id="unanswered"> Unanswered: </h2>
+</div>
+
+<button class="done">Done!</button>
+
+<button class="reset">Reset</button>
+
+<!--Link to jQuery CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Link to Javascript-->
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
